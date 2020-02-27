@@ -4,6 +4,8 @@ from hott import sparse_ot
 
 from sklearn.metrics.pairwise import euclidean_distances
 from scipy.io import loadmat
+# import nltk
+# nltk.download('stopwords') # first time run
 from nltk.corpus import stopwords
 from nltk.stem.snowball import SnowballStemmer
 
